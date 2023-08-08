@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.link{
+.navresponsive{
     background-color: black;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 0.2rem;
@@ -54,72 +54,39 @@ nav a:hover{
 
 /*comienza hamburguesa*/
 
-
-
-footer{
-    background-color: black;
+.checkbtn{
+    font-size: 30px;
     color: white;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
-footer ul{
-    padding: 0;
-}
-footer li{
-    list-style: none;
-}
-.wrap-footer{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    column-gap: 1rem;
-    padding: 1rem;
-    margin: 2rem auto;
-    max-width: 95%;
-}
-.redes-element-footer img{
-    max-height: 75px;
-
-}
-.elemente-footer h5{
-    margin: 1rem 0;
-}
-.text-element-footer li{
-    line-height: 2;
-
-}
-.link-elements-footer li a{
-    color: white;
-    text-decoration: none;
+    float: right;
+    line-height: 80px;
+    margin-right: 5px;
+    cursor: pointer;
+    display: none;
 }
 
-.link-elements-footer li a:hover{
-    color: rgb(187, 155, 73);
-    text-decoration: none;
+#check{
+    display: none;
 }
 
-.text-element-footer element{
-    text-decoration: none;
-    color: white;
-}
-
-text-element-footer li a{
-    color: white;
-}
-
-.redes-element-footer ul{
-    display: flex;
-    flex-flow: wrap;
-}
-.redes-element-footer li{
-    margin-right: 1rem;
-}
-
-
-
-@media (max-width: 768px){
-    .wrap-footer{
-        grid-template-columns: repeat(2,1fr);
+@media (max-width:680px){
+    .logo{
+        padding-left: 20px;
     }
+    .links{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: black;
+    }
+    .checkbtn{
+        display: block;
+    }
+
 }
+
+
+
+
 
 /*comienza carta*/
 
