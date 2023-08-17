@@ -199,6 +199,7 @@ a{
     flex: 25%;
     padding: 5px;
 }
+
 @media (max-width: 600px){
     .column{
         flex: 100%;
