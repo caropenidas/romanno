@@ -3,42 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+.navresponsive{
     background-color: black;
-}
-nav{
-    width: 100%;
-    height: 130px;
-    margin: 0 auto;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 0.2rem;
-    font-size: 1.7rem;
+    text-align: right;
+    font-size: 25px;
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;   
 }
-img{
-    width: 170px;
-    padding: 10px;
-    margin: auto;
-}
-nav ul{
-    list-style: none;
+
+nav{
     display: flex;
     align-items: center;
-    padding: 10px;
-    
+    padding: 90px;
+    background-color: black;
 }
-nav ul a{
+nav a{
     color: white;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.7rem;
 }
 
-nav li a:hover{
+nav a:hover{
     color: rgb(187, 155, 73);
-
 }
+
+
 .presentacion{
     margin: 0 auto;
     padding: 70px;
@@ -185,7 +181,7 @@ a{
 /*comienza galeria*/
 
 .column img{
-    width: 105%;
+    width: 100%;
     margin-top: 5px;
 }
 
@@ -209,6 +205,8 @@ a{
         flex: 50%;
     }
 }
+
+
 /*comienza carta*/
 .tarjeta{
     width: 50%;
@@ -217,9 +215,11 @@ a{
     display: flex;
     border: solid 2px rgb(187, 155, 73);
 }
+
 .gifcard{
     background-color: black;
 }
+
 .formulario-gifcard{
     background-color: rgb(0, 0, 0);
     color: white;
@@ -231,63 +231,13 @@ a{
     padding: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.pie-pagina{
-    width: 100%;
-    background-color: black;
-    font-size: 1.1rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-    
-}
-.pie-pagina, .grupo-1{
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 80px;
-    padding: 5px 0px;
-    column-gap: 130px;
-}
 
-.box img{
-    width: 250px;
-}
-h2{
-    font-size: 1.7rem;
-    margin-bottom: 30px;
-}
-.red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    color: white;
-
-}
-.grupo-3, .grupo-2, ul{
-    color: white;
-    list-style-type: none;
-
-}
-.grupo-3 a{
-    color: white;
-}
-.grupo-3 a:hover{
-    color: rgb(187, 155, 73);
-}
-@media screen and (max-width:600px){
-    .pie-pagina, .grupo-1{
-        margin: 0 auto;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 10px;
-        padding: 10px 0px;
-    }
-}
-/*comienza carta
 .footer{
     background-color: black;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
 }
 .wrap-footer{
     display: flex;
@@ -306,4 +256,3 @@ h2{
     padding-bottom: 10px;
     display: inline-block;
 }
-*/
