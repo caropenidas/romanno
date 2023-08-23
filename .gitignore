@@ -1,5 +1,5 @@
-imagenes
-wireframe
-node_modules
+/imagenes
+/wireframe
 package-lock.json
-package.json
+packaje.json
+/node_modules
