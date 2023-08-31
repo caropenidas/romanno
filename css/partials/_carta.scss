@@ -1,0 +1,44 @@
+.cuerpo{
+    font-family: $fontSystem;
+    background-color:$backNegro;
+    color: $letraBlanca;
+    padding: 2rem;
+    .wrap{
+        max-width: 95%;
+        margin: 0 auto;
+        .tittle-carta{
+            text-align: center;
+            margin-top: 5px;
+        }
+        .wrap-title-section{
+            .column-2.carta{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                column-gap: 1rem;
+                row-gap: 1rem;
+                padding: 1.3rem;
+                .plato-carta{
+                    display: flex;
+                    align-items: center;
+                    border: 2px solid $letraDorada;
+                    border-radius: 6px;
+                    .title-plato-carta{
+                        border: 1px solid $letraDorada;
+                        border-bottom: none;
+                        border-top: none;
+                        flex-basis: 60%;
+                        padding: 0 1rem;
+                        margin-top: 10px;
+                    }
+                    .precio-plato-carta{
+                        display: flex;
+                        flex-basis: 15%;
+                        justify-content: center;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    
+}

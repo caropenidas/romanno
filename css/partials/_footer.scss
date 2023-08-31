@@ -1,0 +1,43 @@
+.pie-pagina{
+    width: 100%;
+    background-color: $backNegro;
+    font-size: 1.1rem;
+    font-family: $fontSystem;
+    color: $letraBlanca;
+    .pie-pagina, .grupo-1{
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 80px;
+        padding: 5px 0px;
+        column-gap: 130px;
+        .box{
+            .box img{
+                width: 250px;
+            }
+            h2{
+                font-size: 1.7rem;
+                margin-bottom: 30px;
+                text-decoration: underline $letraDorada;
+            }
+            .red-social a{
+                display: inline-block;
+                text-decoration: none;
+                width: 20px;
+                height: 20px;
+                line-height: 20px;
+                color: $letraDorada;
+            }
+        }
+        .grupo-3, .grupo-2, ul{
+            color: $letraBlanca;
+            list-style-type: none;
+        }
+        .grupo-3 a{
+            color: $letraBlanca;
+        }
+        .grupo-3 a:hover{
+            color: $letraDorada;
+        }
+    }
+}

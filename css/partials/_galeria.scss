@@ -1,0 +1,18 @@
+.row{
+    background-color: $backNegro;
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    .column{
+        flex: 25%;
+        padding: 5spx;
+    }
+    .column img{
+        width: 105%;
+        margin-top: 15px;
+        border: 2px solid $letraDorada;
+        .column img:hover{
+            transform: scale(1.5, 1.5);
+        }
+    }
+}

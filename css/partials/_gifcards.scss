@@ -1,0 +1,21 @@
+.gifcard{
+    background-color: $backNegro;
+    .tarjeta{
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        border: solid 2px $letraDorada;
+    }
+    .formulario-gifcard{
+        background-color: $backNegro;
+        color: white;
+        margin: 0 auto;
+        width: 60%;
+        margin-top: 50px;
+        border: 2px solid $letraDorada;
+        border-radius: 5px;
+        padding: 15px;
+        font-family: $fontSystem;
+    }
+}
